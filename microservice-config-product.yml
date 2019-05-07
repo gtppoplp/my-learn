@@ -19,7 +19,7 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/learn_springcloud?serverTimezone=GMT%2B8 # 数据
     username: root
     password: root
-      dbcp2:
+    dbcp2:
       min-idle: 5
       initial-size: 5
       max-total: 5
